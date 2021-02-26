@@ -20,7 +20,7 @@
             echo $this->Form->control('categorias_produto_id', ['options' => $categoriasProdutos]);
             echo $this->Form->control('nome_produto');
             echo $this->Form->control('quantidade');
-            echo $this->Form->control('unidade_medida');
+            echo $this->Form->control('unidade_medida - lt, kg un');
             echo $this->Form->control('valor');
             echo $this->Form->control('perecível');
             echo $this->Form->control('validade', ['empty' => true]);
