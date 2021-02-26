@@ -21,6 +21,6 @@
         ?>
     </fieldset>
     <?= $this->Form->button(__('Salvar')) ?>
-    <?= $this->Form->button(__('Cacelar'),array ('type'=>'reset'))?>
+    <?= $this->Html->link(__('Cancelar'), ['action' => 'index'])?>
     <?= $this->Form->end() ?>
 </div>
